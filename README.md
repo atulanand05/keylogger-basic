@@ -92,4 +92,4 @@ This script is for:
 ## 🪪 License
 
 This project is licensed under the **MIT License**. You are free to use, modify, and share it **for ethical purposes only**.
-See the full license [LICENSE](LICENSE).
+See the full [LICENSE](LICENSE).
