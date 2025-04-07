@@ -55,56 +55,43 @@ Example (if extracted in Downloads):
 🔹 Option B: Clone with Git (Recommended)
 Open a terminal and run:
 
-    ``` bash
     git clone https://github.com/atulanand05/keylogger.git
     cd keylogger
 
 ✅ 2. Make Sure Python is Installed
 To check if Python is installed, run:
 
-    ```bash
     python --version
 
 or
 
-    ```bash
     python3 --version
 
 If not installed, download it from: https://www.python.org/downloads
 
-✅ Make sure to select “Add Python to PATH” during installation.
+    ✅ Make sure to select “Add Python to PATH” during installation.
 
 ✅ 3. Install Required Packages
 The script uses the pynput library. To install it, run:
 
-    ```bash
     pip install pynput
 
 If needed, try:
 
-    ```bash
     pip install --user pynput
 
 ✅ 4. Run the Script
 In the terminal, make sure you're inside the keylogger folder, then run:
 
-    ```bash
     python keylogger.py
 Or, if using python3:
 
-    ```bash
 python3 keylogger.py
 
 The keylogger will now start running in the background and begin logging keystrokes.
 
 🛑 5. Stop the Keylogger
 To stop it, simply press the Esc key on your keyboard.
-
-yaml
-
-Just paste the entire block above into your `README.md` or any `.md` file — it’ll render beautifully with proper formatting on GitHub or in VS Code’s Markdown preview.
-
-Let me know if you want me to auto-generate the README file for you!
 
 ## 📁 Output
 
