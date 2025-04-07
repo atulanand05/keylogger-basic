@@ -30,26 +30,90 @@ Install `pynput` with:
 pip install pynput
 ```
 
----
+🚀 How to Use
+Follow these steps to download, run, and stop the keylogger script:
 
-## 🚀 How to Use
 
-1. **Download or clone** this repository:
+✅ 1. Download or Clone the Repository
+You have two options:
 
-```bash
+🔹 Option A: Download as ZIP (No Git Required)
+Go to https://github.com/atulanand05/keylogger
+
+Click the green "Code" button and select "Download ZIP".
+
+Extract the downloaded ZIP file.
+
+Open a terminal and navigate into the extracted folder using:
+
+bash
+Copy
+Edit
+cd path/to/extracted/keylogger-folder
+Example (if extracted in Downloads):
+
+bash
+Copy
+Edit
+cd Downloads/keylogger-main
+
+🔹 Option B: Clone with Git (Recommended)
+Open a terminal and run:
+
+bash
+Copy
+Edit
 git clone https://github.com/atulanand05/keylogger.git
 cd keylogger
-```
 
-2. **Run the script** (it will immediately start logging):
+✅ 2. Make Sure Python is Installed
+To check if Python is installed, run:
 
-```bash
+bash
+Copy
+Edit
+python --version
+or
+
+bash
+Copy
+Edit
+python3 --version
+If not installed, download it from: https://www.python.org/downloads
+
+✅ Make sure to select “Add Python to PATH” during installation.
+
+✅ 3. Install Required Packages
+The script uses the pynput library. To install it, run:
+
+bash
+Copy
+Edit
+pip install pynput
+If needed, try:
+
+bash
+Copy
+Edit
+pip install --user pynput
+
+✅ 4. Run the Script
+In the terminal, make sure you're inside the keylogger folder, then run:
+
+bash
+Copy
+Edit
 python keylogger.py
-```
+Or, if using python3:
 
-3. **To stop logging**, simply press the `Esc` key.
+bash
+Copy
+Edit
+python3 keylogger.py
+The keylogger will now start running in the background and begin logging keystrokes.
 
----
+🛑 5. Stop the Keylogger
+To stop it, simply press the Esc key on your keyboard.
 
 ## 📁 Output
 
