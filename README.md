@@ -29,34 +29,31 @@ Install `pynput` with:
 ```bash
 pip install pynput
 ```
+## 🚀 How to Use
 
-🚀 How to Use
 Follow these steps to download, run, and stop the keylogger script:
 
+---
 
-✅ 1. Download or Clone the Repository
+### ✅ 1. Download or Clone the Repository
+
 You have two options:
 
-🔹 Option A: Download as ZIP (No Git Required)
-Go to https://github.com/atulanand05/keylogger
+#### 🔹 Option A: Download as ZIP (No Git Required)
 
-Click the green "Code" button and select "Download ZIP".
+1. Go to [https://github.com/atulanand05/keylogger](https://github.com/atulanand05/keylogger)
+2. Click the green **"Code"** button and select **"Download ZIP"**.
+3. Extract the downloaded ZIP file.
+4. Open a terminal and navigate into the extracted folder using:
 
-Extract the downloaded ZIP file.
-
-Open a terminal and navigate into the extracted folder using:
-
-bash
-Copy
-Edit
-cd path/to/extracted/keylogger-folder
+   ```bash
+   cd path/to/extracted/keylogger-folder
 Example (if extracted in Downloads):
 
 bash
 Copy
 Edit
 cd Downloads/keylogger-main
-
 🔹 Option B: Clone with Git (Recommended)
 Open a terminal and run:
 
@@ -65,7 +62,6 @@ Copy
 Edit
 git clone https://github.com/atulanand05/keylogger.git
 cd keylogger
-
 ✅ 2. Make Sure Python is Installed
 To check if Python is installed, run:
 
@@ -96,7 +92,6 @@ bash
 Copy
 Edit
 pip install --user pynput
-
 ✅ 4. Run the Script
 In the terminal, make sure you're inside the keylogger folder, then run:
 
@@ -114,6 +109,16 @@ The keylogger will now start running in the background and begin logging keystro
 
 🛑 5. Stop the Keylogger
 To stop it, simply press the Esc key on your keyboard.
+
+yaml
+Copy
+Edit
+
+---
+
+Just paste the entire block above into your `README.md` or any `.md` file — it’ll render beautifully with proper formatting on GitHub or in VS Code’s Markdown preview.
+
+Let me know if you want me to auto-generate the README file for you!
 
 ## 📁 Output
 
