@@ -92,15 +92,3 @@ This script is for:
 ## 🪪 License
 
 This project is licensed under the **MIT License**. You are free to use, modify, and share it **for ethical purposes only**.
-
----
-
-## 💡 Need More?
-
-Let me know if you want to:
-
-- Add this to GitHub  
-- Turn it into a `.exe` (silent mode)  
-- Make the output encrypted or hidden  
-
-Happy to help you safely and professionally expand it!
