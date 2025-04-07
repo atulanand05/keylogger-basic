@@ -1,43 +1,106 @@
-# Keylogger Basic
+# 🔐 Silent Keylogger with Timestamp Logging (Educational Use Only)
 
-A simple keylogger script that records keystrokes on your system and stores them locally. It also sends the captured log via email (using Gmail's SMTP server). This is for educational purposes and should be used responsibly.
+This is a **stealth keylogger** written in Python using the `pynput` library. It logs all keyboard input (including special keys) to a timestamped `.txt` file — completely silently, with **no console messages or alerts**.
 
-## Features
+> ⚠️ **Warning — Use Responsibly**  
+> This software is provided strictly for **educational and ethical purposes** only.  
+> Unauthorized use to monitor others without consent is illegal and unethical.  
+> Always obtain **explicit permission** before running this script on any machine you do not personally own.
 
-- Logs keystrokes in real-time.
-- Saves keystroke data into a timestamped log file.
+---
 
+## 🧩 Features
 
-## Installation
+- ✅ Logs **all keypresses**, including letters, numbers, symbols, and special keys  
+- ✅ Adds a **timestamp** to every key press  
+- ✅ Creates a **new log file** for every session (e.g., `keylog_20250407_161042.txt`)  
+- ✅ Operates in **stealth mode** – no window, messages, or alerts  
+- ✅ Automatically stops when **`Esc` key is pressed**  
 
-1. Clone the repository or download the ZIP file.
-2. Install the required dependencies using `pip`:
-    ```bash
-    pip install -r requirements.txt
-    ```
+---
 
-## Usage
+## 🔧 Requirements
 
-1. Run the `key_logger.py` script.
-    ```bash
-    python key_logger.py
-    ```
+- Python 3.6 or higher  
+- `pynput` module  
 
-2. Press `Esc` to stop the keylogger.
-3. The captured log will be saved to your system.
-## Configuration
+Install `pynput` with:
 
-- `log_file`: This variable contains the name of the log file that is being generated. The file name includes a timestamp for uniqueness.
+```bash
+pip install pynput
+```
 
-## Contributing
+---
 
-If you'd like to contribute to the development of this project, feel free to fork the repository and submit a pull request.
+## 🚀 How to Use
 
-## Disclaimer
+1. **Download or clone** this repository:
 
-This script is intended for educational purposes only. Misuse of this code could be illegal and unethical. Ensure you have permission before using this script in any environment.
+```bash
+git clone https://github.com/your-username/keylogger.git
+cd keylogger
+```
 
-## License
+2. **Run the script** (it will immediately start logging):
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```bash
+python keylogger.py
+```
 
+3. **To stop logging**, simply press the `Esc` key.
+
+---
+
+## 📁 Output
+
+Each session creates a new log file in the current directory:
+
+```
+keylog_YYYYMMDD_HHMMSS.txt
+```
+
+Example contents:
+
+```
+[16:10:42] a
+[16:10:43] b
+[16:10:44] [Key.space]
+[16:10:45] [Key.enter]
+```
+
+---
+
+## ⚖️ Legal & Ethical Disclaimer
+
+This script is for:
+
+- ✅ Learning how low-level keyboard monitoring works  
+- ✅ Building input tracking tools for accessibility or automation  
+- ✅ Security research on keylogging behavior  
+
+**It must not be used to:**
+
+- ❌ Spy on users without knowledge  
+- ❌ Record passwords or personal info  
+- ❌ Break laws or violate privacy  
+
+> By using this software, you agree to use it only in a legal and ethical manner.  
+> The author is **not responsible** for misuse or any resulting consequences.
+
+---
+
+## 🪪 License
+
+This project is licensed under the **MIT License**. You are free to use, modify, and share it **for ethical purposes only**.
+
+---
+
+## 💡 Need More?
+
+Let me know if you want to:
+
+- Add this to GitHub  
+- Turn it into a `.exe` (silent mode)  
+- Make the output encrypted or hidden  
+
+Happy to help you safely and professionally expand it!

